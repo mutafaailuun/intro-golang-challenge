@@ -7,8 +7,8 @@ func main() {
 	j := true
 	k := 15
 	l := "\u042F"
-	m := 1071
-	var n float64 = 123.456
+	russianUnicode := 1071
+	var float float64 = 123.456
 	
 	fmt.Printf("%T \n", i)
 	fmt.Printf("%% \n")
@@ -18,8 +18,8 @@ func main() {
 	fmt.Printf("%o \n", i)
 	fmt.Printf("%x \n", k)
 	fmt.Printf("%X \n", k)
-	fmt.Printf("%U \n", m)
-	fmt.Printf("%f\n", n)
-	fmt.Printf("%e\n", n)
+	fmt.Printf("%U \n", russianUnicode)
+	fmt.Printf("%f\n", float)
+	fmt.Printf("%e\n", float)
 
 }
